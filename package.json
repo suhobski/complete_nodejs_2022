@@ -1,0 +1,30 @@
+{
+  "name": "complete_nodejs_2022",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "csv-parse": "^5.0.4",
+    "express": "^4.17.2",
+    "hbs": "^4.2.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "watch": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/suhobski/complete_nodejs_2022.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/suhobski/complete_nodejs_2022/issues"
+  },
+  "homepage": "https://github.com/suhobski/complete_nodejs_2022#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}

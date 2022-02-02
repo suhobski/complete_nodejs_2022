@@ -7,17 +7,22 @@
     "test": "jest",
     "test-watch": "jest --watch",
     "watch": "set PORT=8000&& nodemon src/server.js",
-    "start": "set PORT=8000&& node src/server.js"
+    "start": "set PORT=8000&& node src/server.js",
+    "cluster": "pm2 start src/server.js -i max"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "jest": {
+    "testEnvironment": "node"
+  },
   "dependencies": {
     "complete_nodejs_2022": "file:..",
     "cors": "^2.8.5",
     "cross-env": "^7.0.3",
     "csv-parse": "^5.0.4",
-    "express": "^4.17.2"
+    "express": "^4.17.2",
+    "pm2": "^5.1.2"
   },
   "devDependencies": {
     "jest": "^27.4.7",
